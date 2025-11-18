@@ -1,5 +1,3 @@
-version: '3.3'
-
 services:
 
     swingmusic:
@@ -11,4 +9,3 @@ services:
             - ./music:/root/music
             - ./data:/data
         restart: unless-stopped
-
